@@ -1,0 +1,4 @@
+#!/bin/sh
+
+ncat -lk -p 8080 --sh-exec "sh http.sh"
+
